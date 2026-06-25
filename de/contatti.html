@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="de" data-page="contatti">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Tomatis Nicola S.r.l.</title>
+<meta name="description" content="Tomatis Nicola S.r.l. — Herstellung von Kaltumformwerkzeugen für die Automobilindustrie. Über 50 Jahre Erfahrung in Nole, Italien.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+
+<!-- Hreflang per SEO multilingua -->
+<link rel="alternate" hreflang="it" href="/contatti.html">
+<link rel="alternate" hreflang="en" href="/en/contatti.html">
+<link rel="alternate" hreflang="de" href="/de/contatti.html">
+<link rel="alternate" hreflang="x-default" href="/contatti.html">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Kontakt — Tomatis Nicola S.r.l.">
+<meta property="og:description" content="Tomatis Nicola S.r.l. — Herstellung von Kaltumformwerkzeugen für die Automobilindustrie. Über 50 Jahre Erfahrung in Nole, Italien.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<!-- Applica subito la lingua salvata, reindirizzando se necessario, con la
+     stessa logica/tempistica del tema chiaro/scuro: gira prima che la
+     pagina venga dipinta, per evitare di mostrare per un istante la lingua
+     sbagliata prima di un eventuale redirect. -->
+<script>
+  (function() {
+    try {
+      var savedLang = localStorage.getItem('tomatis-lang');
+      var currentLang = document.documentElement.getAttribute('lang');
+      if (savedLang && savedLang !== currentLang) {
+        var redirectMap = {"it":"../contatti.html","en":"../en/contatti.html","de":"../de/contatti.html"};
+        var target = redirectMap[savedLang];
+        if (target) {
+          window.location.replace(target);
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<!-- Imposta subito il tema per evitare flash chiaro/scuro -->
+<script>
+  (function() {
+    var saved = localStorage.getItem('tomatis-theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+</head>
+<body data-asset-path="../">
+<header class="site-header" data-component="header">
+  <div class="site-header__inner">
+    <a href="./index.html" class="brand" aria-label="Tomatis Nicola S.r.l. — Home">
+      <picture>
+        <source srcset="../assets/img/logo.webp" type="image/webp">
+        <img src="../assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="brand__logo" width="160" height="64" />
+      </picture>
+    </a>
+
+    <nav class="main-nav" aria-label="Sprache">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="./index.html" class="main-nav__link">Home</a>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./azienda.html" class="main-nav__link">Unternehmen</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./azienda.html#macchinari">Unsere Maschinen</a></li>
+              <li><a href="./azienda.html#staff">Unser Team</a></li>
+              <li><a href="./azienda.html#qualita">Qualität, Sicherheit & Umwelt</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./produzione.html" class="main-nav__link">Produktion</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./produzione.html#come-nasce">So entsteht ein Werkzeug</a></li>
+              <li><a href="./produzione.html#i-nostri-stampi">Unsere Werkzeuge</a></li>
+              <li><a href="./produzione.html#altre-realizzazioni">Weitere Projekte</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <a href="./storia.html" class="main-nav__link">Geschichte</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="./contatti.html" class="main-nav__link is-active">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="site-header__controls">
+      <div class="lang-switch" data-component="lang-switch">
+        <button type="button" class="lang-switch__trigger" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-switch__current">de</span>
+          <svg class="lang-switch__chevron" viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-switch__menu" role="menu">
+          <li role="none"><a role="menuitem" href="../contatti.html" data-lang-code="it">IT</a></li>
+          <li role="none"><a role="menuitem" href="../en/contatti.html" data-lang-code="en">EN</a></li>
+          <li role="none"><a role="menuitem" href="../de/contatti.html" data-lang-code="de" aria-current="true" class="is-current">DE</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="theme-toggle" data-component="theme-toggle" aria-label="Hell-/Dunkelmodus umschalten" aria-pressed="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12h2.5M19 12h2.5M4.2 19.8L6 18M18 6l1.8-1.8"/></g></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="currentColor"/></svg>
+      </button>
+
+      <button type="button" class="mobile-menu-toggle" data-component="mobile-menu-toggle" aria-label="Navigationsmenü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" data-component="mobile-nav" aria-hidden="true">
+  <ul class="mobile-nav__list">
+    <li><a href="./index.html" class="mobile-nav__link">Home</a></li>
+    <li class="mobile-nav__group">
+      <a href="./azienda.html" class="mobile-nav__link">Unternehmen</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./azienda.html#macchinari">Unsere Maschinen</a></li>
+        <li><a href="./azienda.html#staff">Unser Team</a></li>
+        <li><a href="./azienda.html#qualita">Qualität, Sicherheit & Umwelt</a></li>
+      </ul>
+    </li>
+    <li class="mobile-nav__group">
+      <a href="./produzione.html" class="mobile-nav__link">Produktion</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./produzione.html#come-nasce">So entsteht ein Werkzeug</a></li>
+        <li><a href="./produzione.html#i-nostri-stampi">Unsere Werkzeuge</a></li>
+        <li><a href="./produzione.html#altre-realizzazioni">Weitere Projekte</a></li>
+      </ul>
+    </li>
+    <li><a href="./storia.html" class="mobile-nav__link">Geschichte</a></li>
+    <li><a href="./contatti.html" class="mobile-nav__link is-active">Kontakt</a></li>
+  </ul>
+</div>
+
+
+<main id="main-content">
+
+  <section class="page-hero">
+    <div class="page-hero__inner">
+      <p class="page-hero__eyebrow">Tomatis Nicola S.r.l.</p>
+      <h1 class="page-hero__title">Kontakt</h1>
+      <p class="page-hero__subtitle">Wir stehen Ihnen für alle Informationen zu unseren Produkten und Dienstleistungen zur Verfügung.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__inner">
+      <div class="contacts-grid">
+        <div class="contacts-grid__cards">
+          <a class="contact-card" href="https://www.google.com/maps?ll=45.244805,7.577581&z=17&t=m&hl=it&gl=IT&mapclient=embed&daddr=TOMATIS+NICOLA+srl+Via+Volontari+del+Sangue,+2+10076+Nole+TO@45.24480519999999,7.577581299999999" target="_blank" rel="noopener noreferrer">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            </span>
+            <span class="contact-card__label">Adresse</span>
+            <span class="contact-card__value">Via Volontari del Sangue 2, Nole (TO), Italien</span>
+          </a>
+          <a class="contact-card" href="tel:+390119297137">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1.6 1.6 0 0 1 1.6-.4 11 11 0 0 0 3.6.6 1.6 1.6 0 0 1 1.6 1.6v3.2A1.6 1.6 0 0 1 20.6 22 18 18 0 0 1 2 3.4 1.6 1.6 0 0 1 3.6 1.8h3.2A1.6 1.6 0 0 1 8.4 3.4a11 11 0 0 0 .6 3.6 1.6 1.6 0 0 1-.4 1.6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="contact-card__label">Telefon</span>
+            <span class="contact-card__value">+39 011 9297137</span>
+          </a>
+          <a class="contact-card" href="mailto:tomatis@icip.com">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><rect x="2.5" y="5" width="19" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5l8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="contact-card__label">E-Mail</span>
+            <span class="contact-card__value">tomatis@icip.com</span>
+          </a>
+          <a class="contact-card" href="mailto:tomatisnicola@pec.it">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><rect x="2.5" y="5" width="19" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5l8.5 7 8.5-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 2.5l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="contact-card__label">Zertifizierte E-Mail (PEC)</span>
+            <span class="contact-card__value">tomatisnicola@pec.it</span>
+          </a>
+        </div>
+
+        <div class="contacts-grid__map">
+          <h2 class="section__title">So finden Sie uns</h2>
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.147739024382!2d7.57538725138424!3d45.24480517899646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4788677abb1a622b%3A0x9dd35290a7dffd74!2sTOMATIS%20NICOLA%20srl!5e0!3m2!1sit!2sit!4v1625759913299!5m2!1sit!2sit" width="100%" height="380" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="So finden Sie uns"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <p class="contacts-form-note">Für jede Anfrage kontaktieren Sie uns bitte direkt per Telefon oder E-Mail: Wir melden uns so schnell wie möglich bei Ihnen.</p>
+
+      <div class="company-details">
+        <h2 class="section__title">Unternehmensdaten</h2>
+        <ul class="company-details__list">
+          <li>USt-IdNr.: 04924190012</li>
+          <li>REA-Nr.: TO-670013</li>
+          <li>Gesellschaftskapital: 46.800 € vollständig eingezahlt</li>
+        </ul>
+      </div>
+
+      <div class="legal-block">
+        <h2 class="legal-block__title">Informationen gemäß Art. 1, Abs. 125, des Gesetzes Nr. 124 vom 4. August 2017</h2>
+        <p class="legal-block__text">
+          In Bezug auf die Bestimmungen von Art. 1, Abs. 125-bis, des Gesetzes 124/2017, hinsichtlich der Verpflichtung zur Offenlegung von Geldbeträgen, die im Geschäftsjahr in Form von Zuwendungen, Beihilfen, Vorteilen, Beiträgen oder Unterstützungen in Geld oder Sachleistungen ohne allgemeinen Charakter und ohne Gegenleistung, Vergütung oder Entschädigung jeglicher Art von öffentlichen Verwaltungen und den in Abs. 125-bis desselben Artikels genannten Stellen erhalten wurden, können die von unserem Unternehmen erhaltenen Beihilfen im
+          <a href="https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/TrasparenzaAiuto.jspx" target="_blank" rel="noopener noreferrer">Nationalen Register der staatlichen Beihilfen</a>
+          eingesehen werden, und die GSE-Beiträge sind in dieser Tabelle einsehbar
+          <a href="https://drive.google.com/file/d/1wIcgwXr3Rv2SuIGWx--JIXCYdcWTNwkE/view?usp=sharing" target="_blank" rel="noopener noreferrer">→</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <picture>
+        <source srcset="../assets/img/logo.webp" type="image/webp">
+        <img src="../assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="site-footer__logo" width="140" height="56" />
+      </picture>
+      <p class="site-footer__address">Via Volontari del Sangue 2, Nole (TO), Italien</p>
+    </div>
+
+    <div class="site-footer__contacts">
+      <a href="tel:+390119297137" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Telefon</span>
+        <span>+39 011 9297137</span>
+      </a>
+      <a href="mailto:tomatis@icip.com" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">E-Mail</span>
+        <span>tomatis@icip.com</span>
+      </a>
+      <a href="mailto:tomatisnicola@pec.it" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Zertifizierte E-Mail</span>
+        <span>tomatisnicola@pec.it</span>
+      </a>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="Alle Rechte vorbehalten">
+      <a href="./index.html">Home</a>
+      <a href="./azienda.html">Unternehmen</a>
+      <a href="./produzione.html">Produktion</a>
+      <a href="./storia.html">Geschichte</a>
+      <a href="./contatti.html">Kontakt</a>
+    </nav>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>&copy; <span data-current-year>2026</span> Tomatis Nicola S.r.l. — Alle Rechte vorbehalten.</p>
+    <p>Website erstellt von Nicola Debernardi</p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>

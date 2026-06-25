@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de" data-page="storia">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geschichte — Tomatis Nicola S.r.l.</title>
+<meta name="description" content="Tomatis Nicola S.r.l. — Herstellung von Kaltumformwerkzeugen für die Automobilindustrie. Über 50 Jahre Erfahrung in Nole, Italien.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+
+<!-- Hreflang per SEO multilingua -->
+<link rel="alternate" hreflang="it" href="/storia.html">
+<link rel="alternate" hreflang="en" href="/en/storia.html">
+<link rel="alternate" hreflang="de" href="/de/storia.html">
+<link rel="alternate" hreflang="x-default" href="/storia.html">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Geschichte — Tomatis Nicola S.r.l.">
+<meta property="og:description" content="Tomatis Nicola S.r.l. — Herstellung von Kaltumformwerkzeugen für die Automobilindustrie. Über 50 Jahre Erfahrung in Nole, Italien.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<!-- Applica subito la lingua salvata, reindirizzando se necessario, con la
+     stessa logica/tempistica del tema chiaro/scuro: gira prima che la
+     pagina venga dipinta, per evitare di mostrare per un istante la lingua
+     sbagliata prima di un eventuale redirect. -->
+<script>
+  (function() {
+    try {
+      var savedLang = localStorage.getItem('tomatis-lang');
+      var currentLang = document.documentElement.getAttribute('lang');
+      if (savedLang && savedLang !== currentLang) {
+        var redirectMap = {"it":"../storia.html","en":"../en/storia.html","de":"../de/storia.html"};
+        var target = redirectMap[savedLang];
+        if (target) {
+          window.location.replace(target);
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<!-- Imposta subito il tema per evitare flash chiaro/scuro -->
+<script>
+  (function() {
+    var saved = localStorage.getItem('tomatis-theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+</head>
+<body data-asset-path="../">
+<header class="site-header" data-component="header">
+  <div class="site-header__inner">
+    <a href="./index.html" class="brand" aria-label="Tomatis Nicola S.r.l. — Home">
+      <picture>
+        <source srcset="../assets/img/logo.webp" type="image/webp">
+        <img src="../assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="brand__logo" width="160" height="64" />
+      </picture>
+    </a>
+
+    <nav class="main-nav" aria-label="Sprache">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="./index.html" class="main-nav__link">Home</a>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./azienda.html" class="main-nav__link">Unternehmen</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./azienda.html#macchinari">Unsere Maschinen</a></li>
+              <li><a href="./azienda.html#staff">Unser Team</a></li>
+              <li><a href="./azienda.html#qualita">Qualität, Sicherheit & Umwelt</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./produzione.html" class="main-nav__link">Produktion</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./produzione.html#come-nasce">So entsteht ein Werkzeug</a></li>
+              <li><a href="./produzione.html#i-nostri-stampi">Unsere Werkzeuge</a></li>
+              <li><a href="./produzione.html#altre-realizzazioni">Weitere Projekte</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <a href="./storia.html" class="main-nav__link is-active">Geschichte</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="./contatti.html" class="main-nav__link">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="site-header__controls">
+      <div class="lang-switch" data-component="lang-switch">
+        <button type="button" class="lang-switch__trigger" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-switch__current">de</span>
+          <svg class="lang-switch__chevron" viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-switch__menu" role="menu">
+          <li role="none"><a role="menuitem" href="../storia.html" data-lang-code="it">IT</a></li>
+          <li role="none"><a role="menuitem" href="../en/storia.html" data-lang-code="en">EN</a></li>
+          <li role="none"><a role="menuitem" href="../de/storia.html" data-lang-code="de" aria-current="true" class="is-current">DE</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="theme-toggle" data-component="theme-toggle" aria-label="Hell-/Dunkelmodus umschalten" aria-pressed="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12h2.5M19 12h2.5M4.2 19.8L6 18M18 6l1.8-1.8"/></g></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="currentColor"/></svg>
+      </button>
+
+      <button type="button" class="mobile-menu-toggle" data-component="mobile-menu-toggle" aria-label="Navigationsmenü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" data-component="mobile-nav" aria-hidden="true">
+  <ul class="mobile-nav__list">
+    <li><a href="./index.html" class="mobile-nav__link">Home</a></li>
+    <li class="mobile-nav__group">
+      <a href="./azienda.html" class="mobile-nav__link">Unternehmen</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./azienda.html#macchinari">Unsere Maschinen</a></li>
+        <li><a href="./azienda.html#staff">Unser Team</a></li>
+        <li><a href="./azienda.html#qualita">Qualität, Sicherheit & Umwelt</a></li>
+      </ul>
+    </li>
+    <li class="mobile-nav__group">
+      <a href="./produzione.html" class="mobile-nav__link">Produktion</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./produzione.html#come-nasce">So entsteht ein Werkzeug</a></li>
+        <li><a href="./produzione.html#i-nostri-stampi">Unsere Werkzeuge</a></li>
+        <li><a href="./produzione.html#altre-realizzazioni">Weitere Projekte</a></li>
+      </ul>
+    </li>
+    <li><a href="./storia.html" class="mobile-nav__link is-active">Geschichte</a></li>
+    <li><a href="./contatti.html" class="mobile-nav__link">Kontakt</a></li>
+  </ul>
+</div>
+
+
+<main id="main-content">
+
+  <section class="page-hero">
+    <div class="page-hero__inner">
+      <p class="page-hero__eyebrow">Tomatis Nicola S.r.l.</p>
+      <h1 class="page-hero__title">Geschichte</h1>
+      <p class="page-hero__subtitle">Über fünfzig Jahre Wachstum, eine Berufung: Präzision.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__inner">
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__marker"><span>1969</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-01.webp" type="image/webp"><img src="../assets/img/storia/timeline-01.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Das Unternehmen wurde 1969 in der Werkstatt seines Gründers Nicola Tomatis gegründet. Auf einem von seinem Vater Pietro geerbten Grundstück baute er den ersten Kern seiner mechanischen Werkstatt und spezialisierte sich auf Kaltumformwerkzeuge für Blech. Im Laufe der Jahre wurde dieser Kern mehrfach erweitert, bis die heutige Ausdehnung von über 2.000 m² überdachter Fläche erreicht wurde. Aus dem Einzelunternehmen wurde zunächst eine OHG und 1990 eine S.r.l., wobei die familiengeführte Leitung und heute ein Team von sechzehn Mitarbeitern erhalten blieben.</p></div>
+        </li>
+        <li class="timeline__item timeline__item--reverse">
+          <div class="timeline__marker"><span>1975–77</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-02.webp" type="image/webp"><img src="../assets/img/storia/timeline-02.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Erste sichtgesteuerte Automatikmaschinen und eine Kopierfräsmaschine. Von Anfang an war es Nicolas Ziel, die technologische Ausstattung stets aktuell zu halten, und er investierte regelmäßig in neu konzipierte Maschinen. In diesen Jahren wurden die ersten sichtgesteuerten Automatikmaschinen sowie eine Kopierfräsmaschine angeschafft, die mit speziellen Sensoren Holz- oder Kunstharzmodelle abtastete und über ein mit den Werkzeugen verbundenes Kupplungssystem das Werkzeugmaterial direkt fräste.</p></div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__marker"><span>1979–80</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-03.webp" type="image/webp"><img src="../assets/img/storia/timeline-03.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Erste Erweiterung der Werkstatt. Mit der Zeit entstand der Bedarf an größeren Räumen, um den wachsenden Kundenanforderungen zu entsprechen. In den neuen Räumlichkeiten wurde eine neue, programmierbare MECOF-Fräsmaschine mit Positioniersystem installiert, um mit der Bearbeitungstechnologie Schritt zu halten.</p></div>
+        </li>
+        <li class="timeline__item timeline__item--reverse">
+          <div class="timeline__marker"><span>1985–92</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-04.webp" type="image/webp"><img src="../assets/img/storia/timeline-04.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Bau des Bürogebäudes und Installation der ersten numerisch gesteuerten Maschinen. Neue CNC-Maschinen mit Kontakttaster zur Digitalisierung von Kunstharzmodellen. Anschaffung des ersten CAD/CAM-Systems, mit dem das technische Büro begann, die Konstruktion vom traditionellen Zeichenbrett auf den PC zu verlegen.</p></div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__marker"><span>1997–98</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-05.webp" type="image/webp"><img src="../assets/img/storia/timeline-05.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Zweite Erweiterung mit Installation eines Messzentrums. Diese Erweiterung schuf größere Räumlichkeiten, ausgestattet mit einem leistungsfähigeren Hallenkran und einer ersten Presse für Werkzeugtests, und ermöglichte den Bau mittelgroßer Werkzeuge.</p></div>
+        </li>
+        <li class="timeline__item timeline__item--reverse">
+          <div class="timeline__marker"><span>2006–17</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-06.webp" type="image/webp"><img src="../assets/img/storia/timeline-06.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Erweiterung mit Installation der Gigant-Presse und eines 25-Tonnen-Hallenkrans. Neue FPT-Fräsmaschinen der Industrie 4.0. Diese weiteren Schritte ermöglichten den Einstieg in den Markt für Großwerkzeuge.</p></div>
+        </li>
+        <li class="timeline__item timeline__item--highlight">
+          <div class="timeline__marker timeline__marker--highlight"><span>2019–20</span></div>
+          <div class="timeline__media"><picture><source srcset="../assets/img/storia/timeline-07.webp" type="image/webp"><img src="../assets/img/storia/timeline-07.jpg" alt="" loading="lazy" width="520" height="360"></picture></div>
+          <div class="timeline__text"><p>Fünfzig Jahre Tätigkeit.</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <picture>
+        <source srcset="../assets/img/logo.webp" type="image/webp">
+        <img src="../assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="site-footer__logo" width="140" height="56" />
+      </picture>
+      <p class="site-footer__address">Via Volontari del Sangue 2, Nole (TO), Italien</p>
+    </div>
+
+    <div class="site-footer__contacts">
+      <a href="tel:+390119297137" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Telefon</span>
+        <span>+39 011 9297137</span>
+      </a>
+      <a href="mailto:tomatis@icip.com" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">E-Mail</span>
+        <span>tomatis@icip.com</span>
+      </a>
+      <a href="mailto:tomatisnicola@pec.it" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Zertifizierte E-Mail</span>
+        <span>tomatisnicola@pec.it</span>
+      </a>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="Alle Rechte vorbehalten">
+      <a href="./index.html">Home</a>
+      <a href="./azienda.html">Unternehmen</a>
+      <a href="./produzione.html">Produktion</a>
+      <a href="./storia.html">Geschichte</a>
+      <a href="./contatti.html">Kontakt</a>
+    </nav>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>&copy; <span data-current-year>2026</span> Tomatis Nicola S.r.l. — Alle Rechte vorbehalten.</p>
+    <p>Website erstellt von Nicola Debernardi</p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>

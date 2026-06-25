@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="it" data-page="produzione">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produzione — Tomatis Nicola S.r.l.</title>
+<meta name="description" content="Tomatis Nicola S.r.l. — Costruzione stampi per la deformazione a freddo della lamiera nel settore automotive. Oltre 50 anni di esperienza a Nole (TO).">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+
+<!-- Hreflang per SEO multilingua -->
+<link rel="alternate" hreflang="it" href="/produzione.html">
+<link rel="alternate" hreflang="en" href="/en/produzione.html">
+<link rel="alternate" hreflang="de" href="/de/produzione.html">
+<link rel="alternate" hreflang="x-default" href="/produzione.html">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Produzione — Tomatis Nicola S.r.l.">
+<meta property="og:description" content="Tomatis Nicola S.r.l. — Costruzione stampi per la deformazione a freddo della lamiera nel settore automotive. Oltre 50 anni di esperienza a Nole (TO).">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./assets/css/main.css">
+
+<!-- Applica subito la lingua salvata, reindirizzando se necessario, con la
+     stessa logica/tempistica del tema chiaro/scuro: gira prima che la
+     pagina venga dipinta, per evitare di mostrare per un istante la lingua
+     sbagliata prima di un eventuale redirect. -->
+<script>
+  (function() {
+    try {
+      var savedLang = localStorage.getItem('tomatis-lang');
+      var currentLang = document.documentElement.getAttribute('lang');
+      if (savedLang && savedLang !== currentLang) {
+        var redirectMap = {"it":"./produzione.html","en":"en/produzione.html","de":"de/produzione.html"};
+        var target = redirectMap[savedLang];
+        if (target) {
+          window.location.replace(target);
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<!-- Imposta subito il tema per evitare flash chiaro/scuro -->
+<script>
+  (function() {
+    var saved = localStorage.getItem('tomatis-theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+</head>
+<body data-asset-path="./">
+<header class="site-header" data-component="header">
+  <div class="site-header__inner">
+    <a href="./index.html" class="brand" aria-label="Tomatis Nicola S.r.l. — Home">
+      <picture>
+        <source srcset="./assets/img/logo.webp" type="image/webp">
+        <img src="./assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="brand__logo" width="160" height="64" />
+      </picture>
+    </a>
+
+    <nav class="main-nav" aria-label="Lingua">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="./index.html" class="main-nav__link">Home</a>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./azienda.html" class="main-nav__link">L'azienda</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./azienda.html#macchinari">I nostri macchinari</a></li>
+              <li><a href="./azienda.html#staff">Lo staff</a></li>
+              <li><a href="./azienda.html#qualita">Qualità sicurezza e ambiente</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./produzione.html" class="main-nav__link is-active">Produzione</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./produzione.html#come-nasce">Come nasce uno stampo</a></li>
+              <li><a href="./produzione.html#i-nostri-stampi">I nostri stampi</a></li>
+              <li><a href="./produzione.html#altre-realizzazioni">Altre realizzazioni</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <a href="./storia.html" class="main-nav__link">Storia</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="./contatti.html" class="main-nav__link">Contatti</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="site-header__controls">
+      <div class="lang-switch" data-component="lang-switch">
+        <button type="button" class="lang-switch__trigger" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-switch__current">it</span>
+          <svg class="lang-switch__chevron" viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-switch__menu" role="menu">
+          <li role="none"><a role="menuitem" href="./produzione.html" data-lang-code="it" aria-current="true" class="is-current">IT</a></li>
+          <li role="none"><a role="menuitem" href="en/produzione.html" data-lang-code="en">EN</a></li>
+          <li role="none"><a role="menuitem" href="de/produzione.html" data-lang-code="de">DE</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="theme-toggle" data-component="theme-toggle" aria-label="Cambia tema chiaro/scuro" aria-pressed="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12h2.5M19 12h2.5M4.2 19.8L6 18M18 6l1.8-1.8"/></g></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="currentColor"/></svg>
+      </button>
+
+      <button type="button" class="mobile-menu-toggle" data-component="mobile-menu-toggle" aria-label="Apri il menu di navigazione" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" data-component="mobile-nav" aria-hidden="true">
+  <ul class="mobile-nav__list">
+    <li><a href="./index.html" class="mobile-nav__link">Home</a></li>
+    <li class="mobile-nav__group">
+      <a href="./azienda.html" class="mobile-nav__link">L'azienda</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./azienda.html#macchinari">I nostri macchinari</a></li>
+        <li><a href="./azienda.html#staff">Lo staff</a></li>
+        <li><a href="./azienda.html#qualita">Qualità sicurezza e ambiente</a></li>
+      </ul>
+    </li>
+    <li class="mobile-nav__group">
+      <a href="./produzione.html" class="mobile-nav__link is-active">Produzione</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./produzione.html#come-nasce">Come nasce uno stampo</a></li>
+        <li><a href="./produzione.html#i-nostri-stampi">I nostri stampi</a></li>
+        <li><a href="./produzione.html#altre-realizzazioni">Altre realizzazioni</a></li>
+      </ul>
+    </li>
+    <li><a href="./storia.html" class="mobile-nav__link">Storia</a></li>
+    <li><a href="./contatti.html" class="mobile-nav__link">Contatti</a></li>
+  </ul>
+</div>
+
+
+<main id="main-content">
+
+  <section class="page-hero">
+    <div class="page-hero__inner">
+      <p class="page-hero__eyebrow">Tomatis Nicola S.r.l.</p>
+      <h1 class="page-hero__title">Produzione</h1>
+    </div>
+  </section>
+
+  <section class="section" id="come-nasce">
+    <div class="section__inner">
+      <h2 class="section__title section__title--center">Come nasce uno stampo</h2>
+      <p class="section__lead section__lead--center">Sei fasi, dal disegno del cliente alla messa in linea. Sfiora o clicca ogni immagine per scoprire i dettagli.</p>
+
+      <div class="process-carousel" data-component="carousel" role="region" aria-roledescription="carousel" aria-label="Come nasce uno stampo">
+        <div class="process-carousel__viewport">
+          <ul class="process-carousel__track">
+            <li class="process-carousel__slide" data-slide-index="0">
+              <button type="button" class="process-card" data-open-modal="0">
+                <picture><source srcset="./assets/img/produzione/step-01.webp" type="image/webp"><img src="./assets/img/produzione/step-01.jpg" alt="Studio e metodo" loading="lazy" width="420" height="300"></picture>
+                <span class="process-card__number">01</span>
+                <span class="process-card__title">Studio e metodo</span>
+              </button>
+            </li>
+            <li class="process-carousel__slide" data-slide-index="1">
+              <button type="button" class="process-card" data-open-modal="1">
+                <picture><source srcset="./assets/img/produzione/step-02.webp" type="image/webp"><img src="./assets/img/produzione/step-02.jpg" alt="Progettazione" loading="lazy" width="420" height="300"></picture>
+                <span class="process-card__number">02</span>
+                <span class="process-card__title">Progettazione</span>
+              </button>
+            </li>
+            <li class="process-carousel__slide" data-slide-index="2">
+              <button type="button" class="process-card" data-open-modal="2">
+                <picture><source srcset="./assets/img/produzione/step-03.webp" type="image/webp"><img src="./assets/img/produzione/step-03.jpg" alt="Costruzione" loading="lazy" width="420" height="300"></picture>
+                <span class="process-card__number">03</span>
+                <span class="process-card__title">Costruzione</span>
+              </button>
+            </li>
+            <li class="process-carousel__slide" data-slide-index="3">
+              <button type="button" class="process-card" data-open-modal="3">
+                <picture><source srcset="./assets/img/produzione/step-04.webp" type="image/webp"><img src="./assets/img/produzione/step-04.jpg" alt="Messa a punto" loading="lazy" width="420" height="300"></picture>
+                <span class="process-card__number">04</span>
+                <span class="process-card__title">Messa a punto</span>
+              </button>
+            </li>
+            <li class="process-carousel__slide" data-slide-index="4">
+              <button type="button" class="process-card" data-open-modal="4">
+                <picture><source srcset="./assets/img/produzione/step-05.webp" type="image/webp"><img src="./assets/img/produzione/step-05.jpg" alt="Collaudo" loading="lazy" width="420" height="300"></picture>
+                <span class="process-card__number">05</span>
+                <span class="process-card__title">Collaudo</span>
+              </button>
+            </li>
+            <li class="process-carousel__slide" data-slide-index="5">
+              <button type="button" class="process-card" data-open-modal="5">
+                <picture><source srcset="./assets/img/produzione/step-06.webp" type="image/webp"><img src="./assets/img/produzione/step-06.jpg" alt="Messa in linea" loading="lazy" width="420" height="300"></picture>
+                <span class="process-card__number">06</span>
+                <span class="process-card__title">Messa in linea</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <button type="button" class="process-carousel__nav process-carousel__nav--prev" data-carousel-prev aria-label="Fase precedente">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button type="button" class="process-carousel__nav process-carousel__nav--next" data-carousel-next aria-label="Fase successiva">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+
+        <div class="process-carousel__dots" data-carousel-dots role="tablist"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="process-modal" data-component="process-modal" aria-hidden="true">
+    <div class="process-modal__backdrop" data-modal-close></div>
+    <div class="process-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="process-modal-title">
+      <button type="button" class="process-modal__close" data-modal-close aria-label="Chiudi">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="process-modal__media">
+        <picture data-modal-picture></picture>
+      </div>
+      <div class="process-modal__body">
+        <span class="process-modal__number" data-modal-number></span>
+        <h3 class="process-modal__title" id="process-modal-title" data-modal-title></h3>
+        <p class="process-modal__text" data-modal-text></p>
+        <div class="process-modal__nav">
+          <button type="button" class="btn btn--ghost" data-modal-prev>Fase precedente</button>
+          <button type="button" class="btn btn--ghost" data-modal-next>Fase successiva</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="application/json" id="process-steps-data">
+  [
+    {"title": "Studio e metodo", "text": "L'attività prende avvio dalla richiesta del cliente che fornisce il disegno di un componente in lamiera (generalmente parti di autovetture o veicoli) del quale intende avviare una produzione, e quindi necessita della costruzione degli stampi per realizzarlo. Si studiano le operazioni necessarie alla realizzazione del pezzo, stabilendo tipologia e numero di stampi. Si arriva così alla definizione di un metodo che tenga conto delle caratteristiche della lamiera, delle tolleranze, delle quantità da produrre.", "img": "step-01"},
+    {"title": "Progettazione", "text": "Se non viene fornita direttamente dal cliente, si esegue la progettazione degli stampi per la formatura del pezzo, internamente o con l'ausilio di un ufficio tecnico esterno. A seconda della tipologia di stampo, possono essere inseriti gli organi di presa e traslazione dell'elemento. I software che utilizziamo principalmente sono della serie VISI Hexagon.", "img": "step-02"},
+    {"title": "Costruzione", "text": "Si procede alla creazione dei percorsi utensili e, in parallelo, all'acquisto dei materiali (se non forniti dal cliente in conto lavorazione). Le materie prime vengono lavorate sui macchinari (frese, torni, trapani) e rifinite a mano secondo i disegni tecnici, per ottenere le figure richieste.", "img": "step-03"},
+    {"title": "Messa a punto", "text": "Tutte le parti degli stampi vengono assemblate. Successivamente si monta lo stampo nella pressa, dove si procede con la messa a punto e lo stampaggio dei primi pezzi di campionatura.", "img": "step-04"},
+    {"title": "Collaudo", "text": "I campioni passano in sala metrologica dove sono controllati e misurati. Il cliente li riceve insieme al report e al certificato di collaudo che attesta la corrispondenza al disegno e l'effettiva funzionalità. Il software utilizzato è PC DMIS Hexagon.", "img": "step-05"},
+    {"title": "Messa in linea", "text": "Il cliente, dopo aver effettuato i propri collaudi, dà il benestare e riceve gli stampi per avviare la produzione. Qualora venga richiesto, offriamo il servizio di messa in linea presso lo stabilimento di produzione.", "img": "step-06"}
+  ]
+  </script>
+
+  <section class="section section--alt" id="i-nostri-stampi">
+    <div class="section__inner">
+      <h2 class="section__title">I nostri stampi</h2>
+      <ul class="mould-list">
+        <li class="mould-list__item"><h3>Stampi a blocco</h3><p>Per la produzione di componenti in un'unica operazione di formatura.</p></li>
+        <li class="mould-list__item"><h3>Stampi a passo</h3><p>Per lavorazioni progressive in più stazioni successive.</p></li>
+        <li class="mould-list__item"><h3>Stampi a trasferta</h3><p>Per componenti complessi che richiedono più fasi di trasformazione.</p></li>
+        <li class="mould-list__item"><h3>Modifiche e manutenzioni</h3><p>Servizio dedicato alla revisione e all'aggiornamento di stampi esistenti.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="altre-realizzazioni">
+    <div class="section__inner">
+      <h2 class="section__title">Altre realizzazioni</h2>
+      <ul class="other-projects">
+        <li class="other-projects__item">
+          <p>Collaborazione con l'azienda <a href="https://www.bottega7.com/" target="_blank" rel="noopener noreferrer">Bottega 7</a> per la realizzazione dell'illuminazione di <a href="https://www.bottega7.com/special-projects/doha/khalifa-avenue" target="_blank" rel="noopener noreferrer">Khalifa Avenue</a>, Doha (Qatar).</p>
+        </li>
+        <li class="other-projects__item">
+          <p>Collaborazione con l'azienda <a href="https://landra.com/aeronautica/" target="_blank" rel="noopener noreferrer">Landra</a> per il settore aeronautico.</p>
+        </li>
+        <li class="other-projects__item">
+          <p>Collaborazione con il settore energetico, con l'azienda <a href="https://ethosenergy.com/our-locations/torino" target="_blank" rel="noopener noreferrer">Ethos Energy</a>.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <picture>
+        <source srcset="./assets/img/logo.webp" type="image/webp">
+        <img src="./assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="site-footer__logo" width="140" height="56" />
+      </picture>
+      <p class="site-footer__address">Via Volontari del Sangue 2, Nole (TO)</p>
+    </div>
+
+    <div class="site-footer__contacts">
+      <a href="tel:+390119297137" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Tel</span>
+        <span>+39 011 9297137</span>
+      </a>
+      <a href="mailto:tomatis@icip.com" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Mail</span>
+        <span>tomatis@icip.com</span>
+      </a>
+      <a href="mailto:tomatisnicola@pec.it" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Pec</span>
+        <span>tomatisnicola@pec.it</span>
+      </a>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="Tutti i diritti riservati">
+      <a href="./index.html">Home</a>
+      <a href="./azienda.html">L'azienda</a>
+      <a href="./produzione.html">Produzione</a>
+      <a href="./storia.html">Storia</a>
+      <a href="./contatti.html">Contatti</a>
+    </nav>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>&copy; <span data-current-year>2026</span> Tomatis Nicola S.r.l. — Tutti i diritti riservati.</p>
+    <p>Sito web creato da Nicola Debernardi</p>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>

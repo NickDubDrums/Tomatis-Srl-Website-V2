@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it" data-page="index">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOMATIS NICOLA — Tomatis Nicola S.r.l.</title>
+<meta name="description" content="Tomatis Nicola S.r.l. — Costruzione stampi per la deformazione a freddo della lamiera nel settore automotive. Oltre 50 anni di esperienza a Nole (TO).">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+
+<!-- Hreflang per SEO multilingua -->
+<link rel="alternate" hreflang="it" href="/index.html">
+<link rel="alternate" hreflang="en" href="/en/index.html">
+<link rel="alternate" hreflang="de" href="/de/index.html">
+<link rel="alternate" hreflang="x-default" href="/index.html">
+
+<!-- Open Graph -->
+<meta property="og:title" content="TOMATIS NICOLA — Tomatis Nicola S.r.l.">
+<meta property="og:description" content="Tomatis Nicola S.r.l. — Costruzione stampi per la deformazione a freddo della lamiera nel settore automotive. Oltre 50 anni di esperienza a Nole (TO).">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./assets/css/main.css">
+
+<!-- Applica subito la lingua salvata, reindirizzando se necessario, con la
+     stessa logica/tempistica del tema chiaro/scuro: gira prima che la
+     pagina venga dipinta, per evitare di mostrare per un istante la lingua
+     sbagliata prima di un eventuale redirect. -->
+<script>
+  (function() {
+    try {
+      var savedLang = localStorage.getItem('tomatis-lang');
+      var currentLang = document.documentElement.getAttribute('lang');
+      if (savedLang && savedLang !== currentLang) {
+        var redirectMap = {"it":"./index.html","en":"en/index.html","de":"de/index.html"};
+        var target = redirectMap[savedLang];
+        if (target) {
+          window.location.replace(target);
+        }
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<!-- Imposta subito il tema per evitare flash chiaro/scuro -->
+<script>
+  (function() {
+    var saved = localStorage.getItem('tomatis-theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+</head>
+<body data-asset-path="./">
+<header class="site-header" data-component="header">
+  <div class="site-header__inner">
+    <a href="./index.html" class="brand" aria-label="Tomatis Nicola S.r.l. — Home">
+      <picture>
+        <source srcset="./assets/img/logo.webp" type="image/webp">
+        <img src="./assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="brand__logo" width="160" height="64" />
+      </picture>
+    </a>
+
+    <nav class="main-nav" aria-label="Lingua">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="./index.html" class="main-nav__link is-active">Home</a>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./azienda.html" class="main-nav__link">L'azienda</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./azienda.html#macchinari">I nostri macchinari</a></li>
+              <li><a href="./azienda.html#staff">Lo staff</a></li>
+              <li><a href="./azienda.html#qualita">Qualità sicurezza e ambiente</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item main-nav__item--has-sub">
+          <a href="./produzione.html" class="main-nav__link">Produzione</a>
+          <div class="main-nav__sub">
+            <ul class="main-nav__sub-box">
+              <li><a href="./produzione.html#come-nasce">Come nasce uno stampo</a></li>
+              <li><a href="./produzione.html#i-nostri-stampi">I nostri stampi</a></li>
+              <li><a href="./produzione.html#altre-realizzazioni">Altre realizzazioni</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <a href="./storia.html" class="main-nav__link">Storia</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="./contatti.html" class="main-nav__link">Contatti</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="site-header__controls">
+      <div class="lang-switch" data-component="lang-switch">
+        <button type="button" class="lang-switch__trigger" aria-haspopup="true" aria-expanded="false">
+          <span class="lang-switch__current">it</span>
+          <svg class="lang-switch__chevron" viewBox="0 0 12 8" width="12" height="8" aria-hidden="true"><path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-switch__menu" role="menu">
+          <li role="none"><a role="menuitem" href="./index.html" data-lang-code="it" aria-current="true" class="is-current">IT</a></li>
+          <li role="none"><a role="menuitem" href="en/index.html" data-lang-code="en">EN</a></li>
+          <li role="none"><a role="menuitem" href="de/index.html" data-lang-code="de">DE</a></li>
+        </ul>
+      </div>
+
+      <button type="button" class="theme-toggle" data-component="theme-toggle" aria-label="Cambia tema chiaro/scuro" aria-pressed="false">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12h2.5M19 12h2.5M4.2 19.8L6 18M18 6l1.8-1.8"/></g></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="currentColor"/></svg>
+      </button>
+
+      <button type="button" class="mobile-menu-toggle" data-component="mobile-menu-toggle" aria-label="Apri il menu di navigazione" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+        <span class="mobile-menu-toggle__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" data-component="mobile-nav" aria-hidden="true">
+  <ul class="mobile-nav__list">
+    <li><a href="./index.html" class="mobile-nav__link is-active">Home</a></li>
+    <li class="mobile-nav__group">
+      <a href="./azienda.html" class="mobile-nav__link">L'azienda</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./azienda.html#macchinari">I nostri macchinari</a></li>
+        <li><a href="./azienda.html#staff">Lo staff</a></li>
+        <li><a href="./azienda.html#qualita">Qualità sicurezza e ambiente</a></li>
+      </ul>
+    </li>
+    <li class="mobile-nav__group">
+      <a href="./produzione.html" class="mobile-nav__link">Produzione</a>
+      <ul class="mobile-nav__sub">
+        <li><a href="./produzione.html#come-nasce">Come nasce uno stampo</a></li>
+        <li><a href="./produzione.html#i-nostri-stampi">I nostri stampi</a></li>
+        <li><a href="./produzione.html#altre-realizzazioni">Altre realizzazioni</a></li>
+      </ul>
+    </li>
+    <li><a href="./storia.html" class="mobile-nav__link">Storia</a></li>
+    <li><a href="./contatti.html" class="mobile-nav__link">Contatti</a></li>
+  </ul>
+</div>
+
+
+<main id="main-content">
+
+  <section class="hero" data-component="hero">
+    <div class="hero__media">
+      <picture>
+        <source srcset="./assets/img/hero/officina-hero.webp" type="image/webp">
+        <img src="./assets/img/hero/officina-hero.jpg" alt="" class="hero__image" loading="eager" fetchpriority="high">
+      </picture>
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Stampi per l'automotive</p>
+      <h1 class="hero__title">TOMATIS NICOLA <span class="hero__title-accent">S.r.l.</span></h1>
+      <a href="#intro" class="hero__scroll" aria-label="Scroll">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 4v15M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="section section--intro" id="intro">
+    <div class="section__inner">
+      <div class="intro-grid">
+        <div class="intro-grid__text">
+          <h2 class="section__title">Stampi per l'automotive</h2>
+          <p>Siamo specializzati nella costruzione di linee di stampi per la deformazione a freddo della lamiera, in particolare nel settore dell'automotive. Gli stampi consentono la produzione dei componenti in lamiera necessari per ogni nuovo modello di auto che viene progettato, vengono studiati appositamente ed attrezzati in base ai volumi di produzione richiesti.</p>
+          <p>Ogni linea di stampi è costruita specificamente per produrre il componente richiesto, non è ripetibile né ripetitiva. Realizziamo stampi di piccole, medie e grandi dimensioni: la misura massima che raggiungiamo è 5000 × 2500 mm.</p>
+        </div>
+        <div class="intro-grid__media">
+          <picture>
+            <source srcset="./assets/img/home/stampo-intro.webp" type="image/webp">
+            <img src="./assets/img/home/stampo-intro.jpg" alt="" loading="lazy" width="640" height="480">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--values">
+    <div class="section__inner">
+      <h2 class="section__title section__title--center">Il nostro modo di lavorare</h2>
+      <ul class="values-grid">
+        <li class="values-grid__item">
+          <span class="values-grid__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="36" height="36"><path d="M8 14a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H20l-8 8v-8a6 6 0 0 1-6-6V14z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <p>Dialogo e soluzione</p>
+        </li>
+        <li class="values-grid__item">
+          <span class="values-grid__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="36" height="36"><path d="M24 42S6 30.8 6 18.6C6 12.2 11 8 16.8 8c3.6 0 6.8 1.9 8.6 4.8.9 1.4 1 2 1.6 2 .6 0 .7-.6 1.6-2C30.4 9.9 33.6 8 37.2 8 43 8 48 12.2 48 18.6 48 30.8 30 42 30 42z" transform="translate(-3)" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </span>
+          <p>Passione e impegno</p>
+        </li>
+        <li class="values-grid__item">
+          <span class="values-grid__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="36" height="36"><path d="M24 6l16 6v10c0 12-7 18-16 20-9-2-16-8-16-20V12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M17 24l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <p>Responsabilità e affidabilità</p>
+        </li>
+      </ul>
+      <div class="section__text-block">
+        <p>È con questi valori che, in oltre 50 anni di esperienza, realizziamo soluzioni ad hoc per i nostri clienti, con costante attenzione nei confronti di esigenze e necessità.</p>
+        <p>A fianco alla produzione di stampi garantiamo un servizio di manutenzione e modifiche di stampi esistenti, piccole produzioni di prototipi, costruzione attrezzature, per rispondere alle esigenze del cliente. Abituati a plasmare la lamiera abbiamo imparato ad essere anche noi flessibili, ascoltando, consigliando, confrontandoci, restando sempre pronti ad una riprogrammazione delle lavorazioni in tempi brevissimi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--stats">
+    <div class="section__inner">
+      <h2 class="section__title section__title--center">Numeri che parlano</h2>
+      <ul class="stats-grid">
+        <li class="stats-grid__item"><span class="stats-grid__value" data-count>1969</span><span class="stats-grid__label">Anno di fondazione</span></li>
+        <li class="stats-grid__item"><span class="stats-grid__value" data-count>50+</span><span class="stats-grid__label">Anni di esperienza</span></li>
+        <li class="stats-grid__item"><span class="stats-grid__value">5000×2500</span><span class="stats-grid__label">mm, stampo massimo</span></li>
+        <li class="stats-grid__item"><span class="stats-grid__value" data-count>16</span><span class="stats-grid__label">Persone in staff</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--cta">
+    <div class="section__inner cta-box">
+      <div class="cta-box__text">
+        <h2 class="cta-box__title">Vuoi saperne di più sul nostro lavoro?</h2>
+        <p>Scopri come nasce uno stampo, dal disegno del cliente alla messa in linea in produzione.</p>
+      </div>
+      <a href="./produzione.html" class="btn btn--primary btn--large">Scopri la produzione</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <picture>
+        <source srcset="./assets/img/logo.webp" type="image/webp">
+        <img src="./assets/img/logo.png" alt="Tomatis Nicola S.r.l." class="site-footer__logo" width="140" height="56" />
+      </picture>
+      <p class="site-footer__address">Via Volontari del Sangue 2, Nole (TO)</p>
+    </div>
+
+    <div class="site-footer__contacts">
+      <a href="tel:+390119297137" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Tel</span>
+        <span>+39 011 9297137</span>
+      </a>
+      <a href="mailto:tomatis@icip.com" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Mail</span>
+        <span>tomatis@icip.com</span>
+      </a>
+      <a href="mailto:tomatisnicola@pec.it" class="site-footer__contact-link">
+        <span class="site-footer__contact-label">Pec</span>
+        <span>tomatisnicola@pec.it</span>
+      </a>
+    </div>
+
+    <nav class="site-footer__nav" aria-label="Tutti i diritti riservati">
+      <a href="./index.html">Home</a>
+      <a href="./azienda.html">L'azienda</a>
+      <a href="./produzione.html">Produzione</a>
+      <a href="./storia.html">Storia</a>
+      <a href="./contatti.html">Contatti</a>
+    </nav>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>&copy; <span data-current-year>2026</span> Tomatis Nicola S.r.l. — Tutti i diritti riservati.</p>
+    <p>Sito web creato da Nicola Debernardi</p>
+  </div>
+</footer>
+
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>
