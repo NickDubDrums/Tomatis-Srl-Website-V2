@@ -652,6 +652,10 @@ button { font-family: inherit; cursor: pointer; }
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+  .timeline__row {
+    flex-direction: column;
+    padding-top: 5rem;
+  }
 
   /* Su mobile l'ordine torna sempre foto sopra, testo sotto */
   .timeline__item .timeline__media,
